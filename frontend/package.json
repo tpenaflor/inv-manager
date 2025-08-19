@@ -1,0 +1,14 @@
+{
+  "name": "inv-manager-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "python3 -m http.server 3001 --directory public",
+    "dev": "python3 -m http.server 3001 --directory public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["inventory", "management", "frontend"],
+  "author": "Tyrone Penaflor",
+  "license": "MIT",
+  "description": "Production-level inventory management system frontend"
+}
